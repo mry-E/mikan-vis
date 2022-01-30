@@ -1,53 +1,52 @@
-import { useEffect, useState } from "react";
 import Api from "./Api";
 
 function Loading() {
-    return <p>Loading</p>;
+    return <h1 className="title">Loading</h1>;
 }
 
 const GolfList = ({ code }) => {
     const areaCode = code;
-    const golfList = Api({areaCode});
+    const golfList = Api({ areaCode });
 
-    
-    if(golfList.length == 0){
-        return(
+
+    if (golfList.length == 0) {
+        return (
             <div>
                 <Loading />
             </div>
-        );        
+        );
     }
     return (
-        <div>
-            <section className="section">
-                <h1 className="title">おすすめのゴルフ場</h1>
-                <div className="container">
-                    <div className="tile is-ancestor">
-                        {golfList.Items.map((item) => {
-                            return (
-                                <div className="tile is-parent">
-                                    <article className="tile is-child box">
-                                        <figure className="image">
-                                            <img src={item.golfCourseImageUrl}/>
-                                        </figure>
-                                        <br></br>
-                                        <a className="title" 
-                                        href={item.golfCourseDetailUrl} 
-                                        target="_blank">
-                                            {item.golfCourseName}
-                                        </a>
-                                        <br></br>
-                                        <p clasName="subtitle">住所：{item.address}</p>
-                                    </article>
-                                    
-                                </div>
-                            )
-                        })
-                        }
-                    </div>
-                </div>
-            </section>
-        </div>
+            <div className="container">
+            <br></br>
+            <h1 className="title">おすすめのゴルフ場</h1>
+                {golfList.Items.map((item) => {
+                    return (
+                        <div className="tile is-ancestor">
+                            <div className="tile is-parent">
+                                <article className="tile is-child box">
+                                    <figure className="image">
+                                        <img src={item.golfCourseImageUrl} />
+                                    </figure>
+                                    <br></br>
+                                    <a className="title"
+                                        href={item.golfCourseDetailUrl}
+                                        target="_blank"
+                                    >
+                                        {item.golfCourseName}
+                                    </a>
+                                    <div clasName="content">
+                                    <br></br>
+                                        住所：{item.address}
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    )
+                })
+                }
+
+            </div>
     );
 }
 

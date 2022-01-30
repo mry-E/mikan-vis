@@ -9,7 +9,7 @@ const Putter = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Putter/pin.jpg`} />
               </figure>
               <br></br>
               <p className="title">ピンタイプ</p>
@@ -22,7 +22,7 @@ const Putter = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Putter/malet.jpg`} />
               </figure>
               <br></br>
               <p className="title">マレットタイプ</p>
@@ -35,13 +35,13 @@ const Putter = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Putter/neomalet.jpg`} />
               </figure>
               <br></br>
               <p className="title">ネオマレットタイプ</p>
               <div className="content">
-                マレットタイプと同様に芯が広いため、ミスショットに肝要である。また、見た目が大きいことからクラブの動きがわかりやすい。<br></br>
-                しかし見た目が大きいため、ゴルフバックにおさまりが悪い。
+                マレットタイプと同様に芯が広いため、ミスショットに寛容。また、見た目が大きいことからクラブの動きがわかりやすい。<br></br>
+                しかし見た目が大きいため、ゴルフバッグのおさまりが悪い。
               </div>
             </article>
           </div>

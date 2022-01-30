@@ -1,5 +1,4 @@
 
-
 const Wood = () => {
   return (
     <section className="section">
@@ -9,80 +8,40 @@ const Wood = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Wood/driver.jpg`}  />
               </figure>
               <br></br>
-              <p className="title">1番　ドライバー</p>
+              <p className="title">ドライバー</p>
               <div className="content">
-                飛距離：180~250ヤード<br></br>
-                基本的にティーショットの時に用いる。一番距離が出るクラブ。
+                飛距離：180~280ヤード<br></br>
+                1番ウッドのこと。基本的にティーショットの時に使用し、一番距離が出るクラブ。
               </div>
             </article>
           </div>
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Wood/FU.jpg`}/>
               </figure>
               <br></br>
-              <p className="title">2番　ブラッシー</p>
+              <p className="title">フェアウェイウッド</p>
               <div className="content">
-                飛距離：不明<br></br>
-                基本的にフェアウェイの時に用いる。現在はほとんど使われない。
+                飛距離：130~220<br></br>
+                2~5,7,9,11番のウッドのこと。基本的にフェアウェイで使用する。現在3,5,7番が活躍しているが、ユーティリティの登場により使用者が少なくなっている。
               </div>
             </article>
           </div>
+              
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
-              </figure>
-              <br></br>
-              <p className="title">3番　スプーン</p>
-              <div className="content">
-                飛距離：160~220ヤード<br></br>
-                基本的にフェアウェイの時に用いる。ドライバーより小さく当てやすいため、ティーショットで用いる人もいる。
-              </div>
-            </article>
-          </div>
-        </div>
-        <div className="tile is-ancestor">
-          <div className="tile is-parent">
-            <article className="tile is-child box">
-              <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
-              </figure>
-              <br></br>
-              <p className="title">4番　バッフィ</p>
-              <div className="content">
-                飛距離：150~190<br></br>
-                基本的にフェアウェイの時に用いる。スプーンより扱いやすいが、ユーティリティの登場により現在使用いる人は少ない。
-              </div>
-            </article>
-          </div>
-          <div className="tile is-parent">
-            <article className="tile is-child box">
-              <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
-              </figure>
-              <br></br>
-              <p className="title">5番　クリーク</p>
-              <div className="content">
-                飛距離：140~180<br></br>
-                基本的にフェアウェイの時に用いる。ロングアイアンと同じような距離となる。
-              </div>
-            </article>
-          </div>
-          <div className="tile is-parent">
-            <article className="tile is-child box">
-              <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Wood/utility.jpg`} />
               </figure>
               <br></br>
               <p className="title">ユーティリティ</p>
               <div className="content">
-                飛距離：130~220ヤード<br></br>
-                基本的にフェアウェイの時に用いる。ウッドより短く、アイアンより打ちやすいいいところを得たクラブ。<br></br>
+                飛距離：100~200ヤード<br></br>
+                基本的にフェアウェイの時に使用する。クラブがウッドより小さく、アイアンより当たる面積が広くなっており、ウッドとアイアンのよい点を集めたクラブ。<br></br>
                 ユーティリティにも複数の番手が存在する。
               </div>
             </article>

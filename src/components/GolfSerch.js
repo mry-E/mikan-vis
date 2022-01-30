@@ -24,8 +24,8 @@ const GolfSerch = () => {
     };
 
     return(
-        <div>
-            <input type="text" placeholder="都道府県を入力" onKeyPress={handleChange}/>
+        <div className="column">
+            <input className="input" type="text" placeholder="都道府県を入力" onKeyPress={handleChange}/>
             <GolfList code={searchCode}/>
         </div>
     );

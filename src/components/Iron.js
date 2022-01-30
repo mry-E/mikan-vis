@@ -6,7 +6,7 @@ const Iron = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/1Iron.jpg`} />
               </figure>
               <br></br>
               <p className="title">1番アイアン</p>
@@ -19,7 +19,7 @@ const Iron = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/longIron.jpg`} />
               </figure>
               <br></br>
               <p className="title">ロングアイアン</p>
@@ -33,13 +33,13 @@ const Iron = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/middleIron.jpg`} />
               </figure>
               <br></br>
               <p className="title">ミドルアイアン</p>
               <div className="content">
                 飛距離：90~160ヤード<br></br>
-                5番、6番、7番アイアンのこと。長さや飛距離的に使いやすく、便利なクラブ。また、7番は最初に練習するべきクラブでもある。
+                5番、6番、7番アイアンのこと。長さや飛距離的に使いやすく、便利なクラブ。また、7番は全体の中間の長さとなり最初に練習するべきクラブでもある。
               </div>
             </article>
           </div>
@@ -48,7 +48,7 @@ const Iron = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/shortIron.jpg`} />
               </figure>
               <br></br>
               <p className="title">ショートアイアン</p>
@@ -61,7 +61,7 @@ const Iron = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/PW.jpg`} />
               </figure>
               <br></br>
               <p className="title">ピッチングウェッジ</p>
@@ -74,7 +74,7 @@ const Iron = () => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/SW.jpg`} />
               </figure>
               <br></br>
               <p className="title">サンドウェッジ</p>
@@ -89,7 +89,7 @@ const Iron = () => {
           <div className="tile is-parent is-4">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/AW.jpg`} />
               </figure>
               <br></br>
               <p className="title">アプローチウェッジ</p>
@@ -102,7 +102,7 @@ const Iron = () => {
         <div className="tile is-parent is-4">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://images.dog.ceo/breeds/shiba/shiba-8.jpg" alt="cute dog!" />
+                <img src={`${process.env.PUBLIC_URL}/data/Iron/LW.jpg`} />
               </figure>
               <br></br>
               <p className="title">ロブウェッジ</p>
