@@ -15,7 +15,7 @@ const Main = () => {
         </article>
       </div>
       <div className="tile is-parent ">
-        <article className="tile is-chaild box">
+        <article className="tile is-child box">
           <GolfSerch />
         </article>
       </div>

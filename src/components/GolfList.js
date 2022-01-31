@@ -19,7 +19,7 @@ const GolfList = ({ code }) => {
     return (
             <div className="container">
             <br></br>
-            <h1 className="title">おすすめのゴルフ場</h1>
+            <h1 className="title" style={{fontSize: "150%"}}>おすすめのゴルフ場</h1>
                 {golfList.Items.map((item) => {
                     return (
                         <div className="tile is-ancestor">
@@ -32,10 +32,11 @@ const GolfList = ({ code }) => {
                                     <a className="title"
                                         href={item.golfCourseDetailUrl}
                                         target="_blank"
+                                        style={{fontSize: "120%"}}
                                     >
                                         {item.golfCourseName}
                                     </a>
-                                    <div clasName="content">
+                                    <div clasName="content" style={{fontSize: "100%"}}>
                                     <br></br>
                                         住所：{item.address}
                                     </div>

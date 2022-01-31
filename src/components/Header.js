@@ -1,9 +1,9 @@
 const Header = () => {
     return (
       <header>
-        <div className="hero is-info">
+        <div className="hero is-small is-info">
           <div className="hero-body">
-            <p className="title">ゴルフクラブの種類と役割を知ろう</p>
+            <h1 className="title" style={{fontSize: "150%"}}>ゴルフクラブの種類と役割を知ろう</h1>
           </div>
         </div>
       </header>
