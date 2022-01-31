@@ -26,7 +26,7 @@ const Wood = () => {
               <br></br>
               <h2 className="title" style={{fontSize: "140%"}}>フェアウェイウッド</h2>
               <div className="content">
-                飛距離：130~220<br></br>
+                飛距離：130~220ヤード<br></br>
                 2~5,7,9,11番のウッドのこと。基本的にフェアウェイで使用する。現在3,5,7番が活躍しているが、ユーティリティの登場により使用者が少なくなっている。
               </div>
             </article>
